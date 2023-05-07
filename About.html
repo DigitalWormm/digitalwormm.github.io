@@ -1,0 +1,100 @@
+<!--SideBar Navigation Demonstration-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vennjy Lugo | About</title>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="Vennjy.css">
+        <link rel="icon" href="res/brain-icon-2.ico">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="Vennjy.js"></script>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-light" id="navbar">
+            <div class="container-xxl">
+                <a href="Intro.html" class="navbar-brand">
+                    <span class="myTitle">Vennjy Lugo</span>
+                </a>
+
+                <!-- Toggle Button for mobile navbars -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links-->
+                <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+                    <ul class="navbar-nav myItems">
+                        <li class="nav-item ms-5 selectedNav">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a href="Blog.html" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="main">
+            <div id="mySideNav" class="sideNav">
+                <div class="m-5">
+                    <a href="#about" class="mb-3">About Me</a>
+                    <a href="#webdev" class="mb-3">WebDev Journey</a>
+                    <a href="#achievements" class="mb-3">Achievements</a>
+                    <a href="#competitive" class="mb-3">Competitive Programming</a>
+                </div>
+            </div>
+            
+            <div id="mainContents">
+                <div id="sideNavBtn" class="fixedContainer" onclick="toggleNavBar()">
+                    <div class="trapezoid">
+                        <img src="res/R.png" alt="trapezoid" id="sideNavImg">
+                    </div>
+                    <div class="openArrow" id="sideNavArrow">
+                        >
+                    </div>
+                </div>
+                
+                <article>
+                <h3 id="about"> About Me</h3>
+                <p>&emsp; I am Vennjy Lugo, A 19-year-old Filipino who is a sophomore at Ateneo
+                    de Davao University studying computer engineering for the year 2023-2024. I 
+                    started programming when I was 17 years old, though I mostly just fooled around 
+                    at the time, not taking it seriously. But when I successfully ran my first program 
+                    (it was a "hello world" written in python), I fell in love with programming. 
+                    It was then when I confidently decided to myself, this is going to be my career. 
+                    Afterwards it became my hobby. </p><br>
+                
+                <h3 id="webdev"> WebDev Journey</h3>
+                <p></p>&emsp; I started to learn website development a year later, though its mostly 
+                    front-end stuff. I scowered the internet for resources for learning HTML, CSS, 
+                    and JavaScript, then I applied my knowledge by creating dummy websites. I eventually 
+                    stumbled upon bootstrap which saved me so much time for the looks and feel for my 
+                    website, and thus I began using it frequently. Even now.
+                    </p><br/> 
+                    
+                <h3 id="achievements"> Achievements</h3>
+                <p>&emsp; I haven't really achieved anything much yet for I am still seeking glory. 
+                    Aside from the developing websites, I have also developed mobile and desktop applications 
+                    during my free time, and competed in a programming competition which was "ICPEP". 
+                    In that competition, I luckily got champion in both division and regional levels, though 
+                    not lucky enough to proceed to the national level because the location needed a plane 
+                    flight and the university could not afford plane tickets.  </p><br>
+                    
+                <h3 id="competitive"> Competitive Programming</h3>
+                <p>&emsp; I mostly specialize in Competitive programming with C++, and I am passionate in 
+                    building applications, and developing websites. Here are my profiles in competitive programming.
+                    </p>
+                </article>
+                <div class="footer text-center">© 2023 Vennjy Lugo. All rights reserved.</div>
+            </div>
+
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,113 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,
+    "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+    !important;
+
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    color: #212529 !important;
+}
+
+.main {
+    margin: 50px 6rem;
+}
+
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: .5s;
+}
+
+.sideNav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    line-height: 100%;
+}
+
+.sideNav a:hover {
+    color: #f1f1f1; 
+}
+
+.sideNav {
+    position: fixed;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+#sideNavBtn, #navbar, #mainContents {
+    transition: margin-left .5s;
+}
+
+/* SideNav Button */
+.fixedContainer {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.trapezoid > img {
+    height: 100px;
+    width: 25px;
+}
+
+.openArrow {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fixedContainer:hover {
+    cursor: pointer;
+}
+
+
+.large {
+    font-size: larger;
+}
+/* SideNav Button */
+
+.footer {
+    font-size: .75rem;
+    margin-bottom: -40px;
+    margin-top: 50px;
+}
+
+#navbar {
+    margin-top: 0;
+}
+
+.myTitle {
+    font-size: 2rem;
+    margin-left: 45px;
+}
+
+.myItems {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+.nav-item:hover {
+    background-color: #ece9e9;
+    border-radius: 35%;
+}
+
+.selectedNav {
+    background-color: #dcdbdb;
+    border-radius: 35%;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
