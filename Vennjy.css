@@ -9,6 +9,12 @@ body {
     color: #212529 !important;
 }
 
+@media (max-width: 800px) {
+    .main {
+      margin: 0px;
+    }
+  }
+
 .main {
     margin: 50px 6rem;
 }
@@ -110,4 +116,39 @@ body {
     border-radius: 35%;
     padding-left: 1.3rem;
     padding-right: 1.3rem;
+}
+
+.myTextThickness {
+    font-weight: 400;
+}
+
+.cardSentence {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hi {
+    height: 130px;
+}
+
+.card:hover {
+    background-color: rgba(202, 202, 202, 0.326);
+}
+
+.darken {
+    background-color: rgba(0,0,0,.1) !important;
+}
+
+.lighten {
+    background-color: white;;
+}
+
+.cardHeaderFont {
+    /* font-size: 3vw; */
+    font-size: clamp(25px, 3vw, 40px);
+
+}
+
+.cardSentenceFont {
+    font-size: clamp(15px, 2vw, 20px);
 }
